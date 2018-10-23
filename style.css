@@ -1,0 +1,71 @@
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #4B9CD320;
+}
+.l-box {
+  padding: 1em;
+}
+
+img {
+  max-width: 400px;
+}
+
+body{
+  background-color: #4B9CD310;
+}
+
+.mainmanual {
+ background-color: #E1E1E1;
+  a:hover{
+    color: #4B9CD3;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #4B9CD320;
+}
+.l-box {
+  padding: 1em;
+}
+
+img {
+  border-radius:2vmin;
+}
+
+.unc-blue-box {
+  /* color from: https://identity.unc.edu/colors/ */
+  background-color:  #4B9CD330;
+  h3 {
+    color: #13294B;
+  }
+  p {
+    color: #13294B;
+  }
+}
+
+.unc-blue-box-2 {
+  background-color: #FFF;
+}
+
+.duke-blue-box {
+  /* color from: https://styleguide.duke.edu/color-palette/ */
+  background-color: #001A57;
+  color: #E5E5E5;
+  h3 {
+    color: #E5E5E5;
+  }
+  p {
+    color: #FFF;
+  }
+  .img-intro {
+    color: #F6EAB8;
+  }
+}
+
+#jmol {
+  width: 350px;
+  height: 350px;
+}
