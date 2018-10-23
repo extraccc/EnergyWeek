@@ -11,7 +11,6 @@
 </head>
 
 <body>
-  <div id="app">
     <div class="container">
       <div class="pure-menu pure-menu-horizontal pure-menu-scrollable mainmanual">
         <a href="#" class="pure-menu-link pure-menu-heading">Welcome!</a>
@@ -36,7 +35,12 @@
           <div class="l-box">
             <h3>What's the meaning of <span class="important-text">Light Harvest Materials</span>?</h3>
             <p>Light harvesting is the study of materials and molecules that capture photons of solar light. This includes studies to better understand the light-harvesting properties of photosynthetic organisms or those of artificial systems that are designed and synthesised to promote photochemical reactions or produce solar fuels.</p>
+            <center>
+              <img class="pure" src="img/effeciency.png">
+              <p>Figure 1: Effeciency of Light harvest materials</p>
+            </center>
             <p>reference: <a href="https://www.nature.com/subjects/light-harvesting">Nature: Light harvesting Topic</a>.</p>
+
           </div>
         </div>
       </div>
@@ -49,24 +53,50 @@
             <h3>What we do?</h3>
             <p>We developed a <a href="https://en.wikipedia.org/wiki/Ab_initio_quantum_chemistry_methods">Ab initio</a> package, called <a href="https://aimsclub.fhi-berlin.mpg.de">FHI-aims</a>! Our focus is to predict the properties of real materials - known ones and those that are not yet known - using computers and the basic mathematical "first principles" that govern the world around us: the laws of quantum mechanics and "multiscale models" based on it. We create the infrastructure to do so, and we work on specific high-value materials problems - either on our own, or with other groups (theory and experiment) around the world.</p>
             <div class="pure-g">
-            <div class="pure-u-md-2-5 pure-u-1">
-              <div id="silicon"></div>
-              <p>Geometry structure of Silicon</p>
+              <div class="pure-u-md-2-5 pure-u-1">
+                <div class="l-box">
+                <img class="pure-img" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg">
+                <center>
+                <p>Silicon</p>
+              </center>
+              </div>
+              </div>
+              <div class="pure-u-md-1-5 pure-u-1 demo">
+                <img class="pure-img" src="img/aimsLogo.png">
+              </div>
+              <div class="pure-u-md-2-5 pure-u-1">
+                <img class="pure-img" src="img/si_band.png" />
+              </div>
+              <div class="pure-u-1">
+                <center>Figure 2: What we do to predict potential materials.</center>
+              </div>
             </div>
-            <div class="pure-u-md-1-5 pure-u-1">
-              <br />
-              <br />
-              <br />
-              <br />
-              <img class="pure-img" src="img/aimsLogo.png">
-            </div>
-            <div class="pure-u-md-2-5 pure-u-1">
-              <img class="pure-img" src="img/si_band.png" />
-            </div>
-          </div>
           </div>
         </div>
       </div>
+      <!-- End of second part -->
+      <!-- Third Part -->
+      <div class="pure-g unc-blue-box">
+        <div class="pure-u-1">
+          <div class="l-box">
+            <h3>With the band structure, we can...</h3>
+            <h4>A brife introduction to band</h4>
+
+            <p>To start with our topic, we should talk about the physical background of <span class="important-text">band structure</span>. In solid-state physics, the electronic band structure (or simply band structure) of a solid describes the range of energies that an electron within the solid may have (called energy bands, allowed bands, or simply bands) and ranges of energy that it may not have (called band gaps or forbidden bands).</p>
+            <p>Band structure comes from the overlap of atom orbital. With a large amount of atoms coming together to from a solic, such as a crystal lattice, the atoms' atomic orbitals overla. Since the <a href="https://en.wikipedia.org/wiki/Pauli_exclusion_principle">Pauli exclusion principle</a>dictates that no two electrons in the solid have the same quantum numbers, each atomic orbital splits into N discrete molecular orbitals, each with a different energy. Since the number of atoms in a macroscopic piece of solid is a very large number (N~10<sup>22</sup>) the number of orbitals is very large and thus they are very closely spaced in energy (of the order of 10<sup>−22</sup> eV). The energy of adjacent levels is so close together that they can be considered as a continuum, an energy band.</p>
+            <img class="pure-img" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Solid_state_electronic_band_structure.svg">
+            <center>Figure 3: Formation of band</center>
+
+            <h4>So, where does the band gap comes from?</h4>
+            <p>Band gaps are essentially leftover ranges of energy not covered by any band, a result of the finite widths of the energy bands. The bands have different widths, with the widths depending upon the degree of overlap in the atomic orbitals from which they arise. Two adjacent bands may simply not be wide enough to fully cover the range of energy. For example, the bands associated with core orbitals (such as 1s electrons) are extremely narrow due to the small overlap between adjacent atoms. As a result, there tend to be large band gaps between the core bands. Higher bands involve comparatively larger orbitals with more overlap, becoming progressively wider at higher energies so that there are no band gaps at higher energies.</p>
+            <p>Reference: <a href="https://en.wikipedia.org/wiki/Electronic_band_structure">Wikipedia</a></p>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- End of third part -->
+      <div id="app">
       <div class="pure-g" id="discover">
         <div class="pure-u-1">
           <div class="l-box">
@@ -84,7 +114,7 @@
       <div v-if="selected" class="pure-g">
         <div class="pure-u-1">
           <div class="l-box">
-            <h3>It seems that you selected [{{selected.displayName}}] </h3>
+            <h3>It seems that you selected <span class="important-text">[{{selected.displayName}}]</span> </h3>
             <p>Here is some information about the material you selected!</p>
           </div>
         </div>
@@ -110,21 +140,24 @@
           </div>
           <div class="pure-u-1 pure-u-md-1-2">
             <div class="l-box">
-              <center><h3>Jmol structure</h3></center>
+              <center>
+                <h3>Jmol structure</h3></center>
               <div id="jmol" class="geometry"></div>
             </div>
           </div>
           <div class="pure-u-1 pure-u-md-1-2">
             <div class="l-box">
-              <center><h3>Band structure</h3></center>
+              <center>
+                <h3>Band structure</h3></center>
               <img class="band pure-img" src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1jq88bw_035880f0.jpeg?region=0%2C0%2C1580%2C880" />
             </div>
           </div>
           <div class="pure-u-1">
             <div class="l-box">
-              <center><h3>Solar spectrum</h3></center>
+              <center>
+                <h3>Solar spectrum</h3></center>
               <p>Here is the solar spectrum as a reference...</p>
-              <img class="pure-img"  src="https://www2.pvlighthouse.com.au/resources/courses/altermatt/The%20Solar%20Spectrum/figures/Photon%20flux%20of%20AM0%20vs%20AM1-5.png"/>
+              <img class="pure-img" src="https://www2.pvlighthouse.com.au/resources/courses/altermatt/The%20Solar%20Spectrum/figures/Photon%20flux%20of%20AM0%20vs%20AM1-5.png" />
             </div>
           </div>
           <div class="pure-u-1">
@@ -144,31 +177,31 @@
           <div class="pure-u-md-1-2 pure-u-1">
             <div class="l-box">
               <center>
-              <h3>Dr. Volker Blum</h3>
-              <h4>Associate Professor</h4>
-              <p>Department of Mechanical Engineering and Materials Science</p>
-              <p>Office: 4308 Chesterfield Building </p>
-              <p>Postal: 144 Hudson Hall, Box 90300 </p>
-              <p>Duke University ∙ Durham, NC 27708 ∙ USA</p>
-              <p>Phone: +1 (919) 660 5279</p>
-              <p> E-mail volker.blum &lt;at&gt; duke.edu</p>
-            </center>
+                <h3>Dr. Volker Blum</h3>
+                <h4>Associate Professor</h4>
+                <p>Department of Mechanical Engineering and Materials Science</p>
+                <p>Office: 4308 Chesterfield Building </p>
+                <p>Postal: 144 Hudson Hall, Box 90300 </p>
+                <p>Duke University ∙ Durham, NC 27708 ∙ USA</p>
+                <p>Phone: +1 (919) 660 5279</p>
+                <p> E-mail volker.blum &lt;at&gt; duke.edu</p>
+              </center>
             </div>
           </div>
-          <div class="pure-u-md-1-4 pure-u-1">
+          <div class="pure-u-md-1-5 pure-u-1">
             <div class="l-box">
               <center>
-              <p>Like our work? Follow us on:</p>
-              <a href="https://twitter.com/AimsDuke"><img src="http://pratt.duke.edu/sites/pratt.duke.edu/themes/pratt/images/social-icon-twitter.png"></a>
-              <p>Want to join our group?</p>
-              <a href="https://aims.pratt.duke.edu"><img class="pure-img" src="https://aims.pratt.duke.edu/sites/aims.pratt.duke.edu/files/u8/Duke_Group_Figure.jpg" /></a>
-            </center>
+                <p>Like our work? Follow us on:</p>
+                <a href="https://twitter.com/AimsDuke"><img src="http://pratt.duke.edu/sites/pratt.duke.edu/themes/pratt/images/social-icon-twitter.png"></a>
+                <p>Want to join our group?</p>
+                <a href="https://aims.pratt.duke.edu"><img class="pure-img" src="https://aims.pratt.duke.edu/sites/aims.pratt.duke.edu/files/u8/Duke_Group_Figure.jpg" /></a>
+              </center>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <!-- End of [more info about us] -->
     </div>
-  </div>
   <script src="main.js"></script>
 </body>

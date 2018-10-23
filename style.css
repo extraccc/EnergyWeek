@@ -9,6 +9,7 @@
 
 img {
   max-width: 400px;
+  margin: auto;
 }
 
 body{
@@ -33,6 +34,15 @@ body{
 
 img {
   border-radius:2vmin;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.demo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  margin-left: -20px;
 }
 
 .unc-blue-box {
@@ -66,7 +76,17 @@ img {
 }
 
 .important-text {
-  color: salmon;
+  color: #001A57;
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%);
+}
+
+a {
+  color: #001A57;
+}
+
+a:hover {
+  color: #4B9CD3;
 }
 
 #jmol {
