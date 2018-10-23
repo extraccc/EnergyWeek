@@ -65,7 +65,16 @@ img {
   }
 }
 
+.important-text {
+  color: salmon;
+}
+
 #jmol {
   width: 350px;
   height: 350px;
+}
+
+#silicon {
+  width: 250px;
+  height: 250px;
 }

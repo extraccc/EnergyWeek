@@ -12,6 +12,10 @@ const Info = {
   disableInitialConsole: true
 };
 
+Jmol.getApplet("jmolview1", Info);
+Jmol.script(jmolview1, "load http://rruff.geo.arizona.edu/AMS/CIF_text_files/13235_cif.txt");
+$("#silicon").html(Jmol.getAppletHtml(jmolview1));
+
 new Vue({
   el: "#app",
   data: {
