@@ -25,10 +25,10 @@ new Vue({
         displayName: "silicon",
         description: "Silicon is a chemical element with symbol Si and atomic number 14. It is a hard and brittle crystalline solid with a blue-grey metallic lustre; and it is a tetravalent metalloid and semiconductor. It is a member of group 14 in the periodic table: carbon is above it; and germanium, tin, and lead are below it. It is relatively unreactive.",
         source: "https://en.wikipedia.org/wiki/Silicon",
-        geometryURL: "geometry/Si.cif",
+        geometryURL: "geometry/Si_DIA.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
-        bandStructure: "#",
-        reasons: "I don\'t know."
+        bandStructure: "band/Si_DIA.jpg",
+        reasons: "Perhaps yes."
       },
       {
         name: "SiO2",
@@ -47,17 +47,17 @@ new Vue({
         source: "https://en.wikipedia.org/wiki/Diamond",
         geometryURL: "geometry/diamond.cif",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Rough_diamond.jpg",
-        bandStructure: "#",
-        reasons: "#"
+        bandStructure: "band/C_DIA.jpg",
+        reasons: "Absolutely not! The gap is large, what's more, it is expensive."
       }, {
         name: "GaAs",
         displayName: "gallium arsenide",
         description: "Gallium arsenide is a compound of the elements gallium and arsenic. It is a III-V direct bandgap semiconductor with a Zinc blende crystal structure.",
         source: "https://en.wikipedia.org/wiki/Gallium_arsenide",
-        geometryURL: "geometry/GaAs.cif",
+        geometryURL: "geometry/GaAs.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/2/22/Gallium_Arsenide_%28GaAs%29_2%22_wafer.jpg",
-        bandStructure: "",
-        reasons: ""
+        bandStructure: "band/GaAs.jpg",
+        reasons: "Perhaps..."
       }, {
         name: "Graphene",
         displayName: "graphene",
@@ -65,17 +65,17 @@ new Vue({
         geometryURL: "geometry/graphite.in",
         source: "https://en.wikipedia.org/wiki/graphene",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/53/Graphene_SPM.jpg",
-        bandStructure: "",
+        bandStructure: "band/Graphene.jpg",
         reasons: ""
       },
       {
         name: "Al",
         displayName: "Aluminum",
         description: "Aluminium or aluminum is a chemical element with symbol Al and atomic number 13. It is a silvery-white, soft, nonmagnetic and ductile metal in the boron group.",
-        geometryURL: "geometry/Al.cif",
+        geometryURL: "geometry/Al-fcc.in",
         source: "https://en.wikipedia.org/wiki/Aluminium",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
-        bandStructure: "",
+        bandStructure: "band/Al-fcc.jpg",
         reasons: ""
       },
       {
@@ -84,8 +84,8 @@ new Vue({
         description: "will be widely used in the futrue(I guess)",
         geometryURL: "geometry/CBTSe.in",
         imageURL: "#",
-        bandStructure: "",
-        reasons: "NaN"
+        bandStructure: "band/CBTSe.jpg",
+        reasons: "Perhaps.."
       },
       {
         name: "perovskite",
@@ -93,9 +93,18 @@ new Vue({
         description: "AE4TPbI4",
         geometryURL: "geometry/AE4TPbI4.in",
         imageURL: "#",
-        bandStructure: "",
-        reasons: "undefined"
+        bandStructure: "band/AE4TPbI4.jpg",
+        reasons: "Perhaps yes..."
       },
+      {
+        name: "CBTS",
+        displayName: "CBTS",
+        description: "AE4TPbI4",
+        geometryURL: "geometry/CBTS.in",
+        imageURL: "#",
+        bandStructure: "band/CBTS.jpg",
+        reasons: "undefined"
+      }
     ]
   },
   method: {

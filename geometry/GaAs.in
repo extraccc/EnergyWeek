@@ -1,0 +1,6 @@
+# Generated from the ZnS.cF8 prototype (ZB) using a = 5.6532 A
+lattice_vector   0.000000   2.826600   2.826600
+lattice_vector   2.826600   0.000000   2.826600
+lattice_vector   2.826600   2.826600   0.000000
+atom_frac        0.000000   0.000000   0.000000 Ga
+atom_frac        0.250000   0.250000   0.250000 As

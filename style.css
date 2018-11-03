@@ -17,7 +17,7 @@ body{
 }
 
 .mainmanual {
- background-color: #E1E1E1;
+ background-color: #FADBD8;;
   a:hover{
     color: #4B9CD3;
   }
@@ -45,6 +45,41 @@ img {
   margin-left: -20px;
 }
 
+.rainbow-red {
+  background-color: #F9EBEA;
+  color: #001A57;
+}
+
+.rainbow-orange {
+  background-color: #FEF5E7;
+  color: #001A57;
+}
+
+.rainbow-yellow {
+  background-color: #FEF9E7;
+  color: #001A57;
+}
+
+.rainbow-green {
+  background-color: #E8F8F5;
+  color: #001A57;
+}
+
+.rainbow-blue {
+  background-color: #EAF2F8;
+  color: #001A57;
+}
+
+.rainbow-indigo {
+  background-color: #E8EAF6;
+  color: #001A57;
+}
+
+.rainbow-purple {
+  background-color: #EDE7F6;
+  color: #001A57;
+}
+
 .unc-blue-box {
   /* color from: https://identity.unc.edu/colors/ */
   background-color:  #4B9CD330;
@@ -56,9 +91,6 @@ img {
   }
 }
 
-.unc-blue-box-2 {
-  background-color: #FFF;
-}
 
 .duke-blue-box {
   /* color from: https://styleguide.duke.edu/color-palette/ */

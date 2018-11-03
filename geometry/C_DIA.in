@@ -1,0 +1,6 @@
+# Generated from the C.cF8 prototype (DIA) using a = 3.5669 A
+lattice_vector   0.000000   1.783450   1.783450
+lattice_vector   1.783450   0.000000   1.783450
+lattice_vector   1.783450   1.783450   0.000000
+atom_frac        0.000000   0.000000   0.000000 C
+atom_frac        0.250000   0.250000   0.250000 C

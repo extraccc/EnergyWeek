@@ -1,0 +1,5 @@
+# Generated from the Cu.cF4 prototype (FCC) using a = 4.0488 A
+lattice_vector   0.000000   2.024400   2.024400
+lattice_vector   2.024400   0.000000   2.024400
+lattice_vector   2.024400   2.024400   0.000000
+atom_frac        0.000000   0.000000   0.000000 Al
