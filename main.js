@@ -52,7 +52,7 @@ new Vue({
       {
         name: "Si",
         displayName: "silicon",
-        description: "Silicon is a chemical element with symbol Si and atomic number 14. It is a hard and brittle crystalline solid with a blue-grey metallic lustre; and it is a tetravalent metalloid and semiconductor. It is a member of group 14 in the periodic table: carbon is above it; and germanium, tin, and lead are below it. It is relatively unreactive.",
+        description: "Silicon is a chemical element with symbol Si and atomic number 14. It is a  hard and brittle crystalline solid with a blue-grey metallic lustre; and it is a tetravalent metalloid and semiconductor. It is a member of group 14 in the periodic table: carbon is above it; and germanium, tin, and lead are below it. It is relatively unreactive.",
         source: "https://en.wikipedia.org/wiki/Silicon",
         geometryURL: "geometry/Si_DIA.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
@@ -66,7 +66,7 @@ new Vue({
         source: "https://en.wikipedia.org/wiki/Silicon_dioxide",
         geometryURL: "geometry/SiO2_quartz.cif",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sample_of_silicon_dioxide.jpg",
-        bandStructure: "#",
+        bandStructure: "band/SiO2.in",
         reasons: "#"
       },
       {
