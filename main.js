@@ -64,9 +64,9 @@ new Vue({
         displayName: "silicon dioxide",
         description: "Silicon dioxide, also known as silica, silicic acid or silicic acid anydride is an oxide of silicon with the chemical formula SiO₂, most commonly found in nature as quartz and in various living organisms. In many parts of the world, silica is the major constituent of sand.",
         source: "https://en.wikipedia.org/wiki/Silicon_dioxide",
-        geometryURL: "geometry/SiO2_quartz.cif",
+        geometryURL: "geometry/SiO2.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sample_of_silicon_dioxide.jpg",
-        bandStructure: "band/SiO2.in",
+        bandStructure: "band/SiO2.jpg",
         reasons: "#"
       },
       {

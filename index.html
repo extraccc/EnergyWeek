@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
   <script src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="spectrum.js"></script>
 </head>
 
 <body>
@@ -54,20 +56,13 @@
             <h3>What we do?</h3>
             <p>We developed a <a href="https://en.wikipedia.org/wiki/Ab_initio_quantum_chemistry_methods">Ab initio</a> package, called <a href="https://aimsclub.fhi-berlin.mpg.de">FHI-aims</a>! Our focus is to predict the properties of real materials - known ones and those that are not yet known - using computers and the basic mathematical "first principles" that govern the world around us: the laws of quantum mechanics and "multiscale models" based on it. We create the infrastructure to do so, and we work on specific high-value materials problems - either on our own, or with other groups (theory and experiment) around the world.</p>
             <div class="pure-g">
-              <div class="pure-u-md-2-5 pure-u-1">
-                <div class="l-box">
-                <img class="pure-img" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg">
+
+              <div class="pure-u-1">
                 <center>
-                <p>Silicon</p>
-              </center>
-              </div>
-              </div>
-              <div class="pure-u-md-1-5 pure-u-1 demo">
-                <img class="pure-img" src="img/aimsLogo.png">
-              </div>
-              <div class="pure-u-md-2-5 pure-u-1">
-                <img class="pure-img" src="img/si_band.png" />
-              </div>
+                  <img class="pure" src="img/what_aims_do.jpg"/>
+                </center>
+              <div>
+
               <div class="pure-u-1">
                 <center>Figure 2: What we do to predict potential materials.</center>
               </div>
@@ -75,6 +70,8 @@
           </div>
         </div>
       </div>
+      </div>
+    </div>
       <!-- End of second part -->
       <!-- Third Part -->
       <div class="pure-g rainbow-blue">
@@ -97,8 +94,23 @@
         </div>
       </div>
       <!-- End of third part -->
+
+      <!-- Spectrum Part -->
+      <div class="pure-g rainbow-cyan">
+        <div class="pure-u-1">
+          <div class="l-box">
+            <h3>Solar Spectrum</h3>
+            <p>Reference: <a href="https://www.nrel.gov/grid/solar-resource/spectra-am1.5.html">American Society for Testing and Materials</a></p>
+            <div id="solarspectrum"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End of third part -->
+
+
+
       <div id="app">
-      <div class="pure-g rainbow-purple" id="discover">
+      <div class="pure-g rainbow-voilet" id="discover">
         <div class="pure-u-1">
           <div class="l-box">
             <div class="select">

@@ -7,11 +7,6 @@
   padding: 1em;
 }
 
-img {
-  max-width: 400px;
-  margin: auto;
-}
-
 body{
   background-color: #4B9CD310;
 }
@@ -36,6 +31,8 @@ img {
   border-radius:2vmin;
   margin-top: auto;
   margin-bottom: auto;
+  max-width: 600px;
+  width: 100%
 }
 
 .demo {
@@ -70,12 +67,12 @@ img {
   color: #001A57;
 }
 
-.rainbow-indigo {
+.rainbow-cyan {
   background-color: #E8EAF6;
   color: #001A57;
 }
 
-.rainbow-purple {
+.rainbow-violet {
   background-color: #EDE7F6;
   color: #001A57;
 }
