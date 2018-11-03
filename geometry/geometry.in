@@ -1,0 +1,26 @@
+# 
+# This is the geometry file that corresponds to the current relaxation step.
+# If you do not want this file to be written, set the "write_restart_geometry" flag to .false.
+# 
+lattice_vector      5.47060676     -0.00067832      0.00105902
+lattice_vector      0.00069054      5.47001264      0.00080999
+lattice_vector     -0.00113645     -0.00055618     10.94033300
+atom_frac      -0.00022743     -0.00038186      0.49994967 Sn
+atom_frac       0.49981884      0.49965217     -0.00005248 Sn
+atom_frac      -0.00017967      0.49969056      0.24999548 Zn
+atom_frac       0.49978494     -0.00036692      0.74991744 Zn
+atom_frac      -0.00024821     -0.00041126     -0.00005440 Cu
+atom_frac       0.49981885      0.49964624      0.49992183 Cu
+atom_frac      -0.00026024      0.49968706      0.74995396 Cu
+atom_frac       0.49975216     -0.00026638      0.24991915 Cu
+atom_frac       0.24118720      0.23346618      0.12942106 S
+atom_frac       0.74119521      0.73340140      0.62941799 S
+atom_frac       0.25829951      0.26583711      0.62941693 S
+atom_frac       0.75828302      0.76579808      0.12946357 S
+atom_frac       0.73359508      0.25813852      0.37045763 S
+atom_frac       0.23357654      0.75814576      0.87045117 S
+atom_frac       0.26596626      0.74115785      0.37046249 S
+atom_frac       0.76593374      0.24105088      0.87045283 S
+# 
+# What follows is the current estimated Hessian matrix constructed by the BFGS algorithm.
+# This is NOT the true Hessian matrix of the system.
