@@ -29,7 +29,8 @@ new Vue({
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Rough_diamond.jpg",
         bandStructure: "band/C_DIA.jpg",
         reasons: "Absolutely not! The gap is large, what's more, it is expensive."
-      }, {
+      },
+      /*{
         name: "Graphene",
         displayName: "graphene",
         description: "Graphene is a semimetal with small overlap between the valence and the conduction bands. It is an allotrope of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice.",
@@ -38,7 +39,7 @@ new Vue({
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/53/Graphene_SPM.jpg",
         bandStructure: "band/Graphene.jpg",
         reasons: ""
-      },
+      },*/
       {
         name: "Al",
         displayName: "Aluminum",
@@ -47,7 +48,7 @@ new Vue({
         source: "https://en.wikipedia.org/wiki/Aluminium",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
         bandStructure: "band/Al-fcc.jpg",
-        reasons: ""
+        reasons: "No. It is a metal and there is no gap as the band structure shows. "
       },
       {
         name: "Si",
@@ -57,7 +58,7 @@ new Vue({
         geometryURL: "geometry/Si_DIA.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
         bandStructure: "band/Si_DIA.jpg",
-        reasons: "Perhaps yes."
+        reasons: "Yes. "
       },
       {
         name: "SiO2",
@@ -67,7 +68,7 @@ new Vue({
         geometryURL: "geometry/SiO2.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sample_of_silicon_dioxide.jpg",
         bandStructure: "band/SiO2.jpg",
-        reasons: "#"
+        reasons: "No. The gap is large!"
       },
       {
         name: "GaAs",
@@ -77,7 +78,7 @@ new Vue({
         geometryURL: "geometry/GaAs.in",
         imageURL: "https://upload.wikimedia.org/wikipedia/commons/2/22/Gallium_Arsenide_%28GaAs%29_2%22_wafer.jpg",
         bandStructure: "band/GaAs.jpg",
-        reasons: "Perhaps..."
+        reasons: "Yes."
       },
       {
         name: "CBTS",
@@ -86,7 +87,7 @@ new Vue({
         geometryURL: "geometry/CBTS.in",
         imageURL: null,
         bandStructure: "band/CBTS.jpg",
-        reasons: "undefined"
+        reasons: "Yes."
       },
       {
         name: "CBTSe",
@@ -95,7 +96,7 @@ new Vue({
         geometryURL: "geometry/CBTSe.in",
         imageURL: null,
         bandStructure: "band/CBTSe.jpg",
-        reasons: "Perhaps.."
+        reasons: "Yes."
       },
       {
         name: "CZTS",
@@ -104,7 +105,7 @@ new Vue({
         geometryURL: "geometry/CZTS.in",
         imageURL: null,
         bandStructure: "band/CZTS.jpg",
-        reasons: "undefined"
+        reasons: "Yes."
       },
       {
         name: "perovskite",
@@ -113,7 +114,7 @@ new Vue({
         geometryURL: "geometry/AE4TPbI4.in",
         imageURL: null,
         bandStructure: "band/AE4TPbI4.jpg",
-        reasons: "Perhaps yes..."
+        reasons: "Yes."
       }
     ]
   },
