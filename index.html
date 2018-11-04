@@ -133,7 +133,7 @@ t<!DOCTYPE html>
         <div class="pure-u-1">
           <div class="l-box">
             <h3>The Energy Band Structure and the Solar Spectrum</h3>
-            <h4>A Quick Overview of "Band Structure"</h4>
+            <h4>A Quick Overview of "Band Structures"</h4>
 
             <p>The image shown below (Figure 3, taken from Wikipedia) shows schematically how the
 	       allowed energy levels of a solid material (center; in our case, the energy levels of a crystalline absorber 
@@ -163,10 +163,35 @@ t<!DOCTYPE html>
 		    and how they emerge from the energy levels of the atoms that make up the solid (right).</center>
 
             <h4>But wait, there's more!</h4>
-            <p>Band gaps are essentially leftover ranges of energy not covered by any band, a result of the finite widths of the energy bands. The bands have different widths, with the widths depending upon the degree of overlap in the atomic orbitals from which they arise. Two adjacent bands may simply not be wide enough to fully cover the range of energy. For example, the bands associated with core orbitals (such as 1s electrons) are extremely narrow due to the small overlap between adjacent atoms. As a result, there tend to be large band gaps between the core bands. Higher bands involve comparatively larger orbitals with more overlap, becoming progressively wider at higher energies so that there are no band gaps at higher energies.</p>
-            <p>Reference: <a href="https://en.wikipedia.org/wiki/Electronic_band_structure">Wikipedia</a></p>
-
-
+            <p>The picture in Fig. 3 leaves us with a small hair in the soup, however, because it
+		  looks completely unlike the picture shown in Figure 2 (d). But aren't both of them
+		  "band structures"? The catch is that Figure 3 is incomplete. While it does show
+		  allowed and forbidden energy regions, it does not give us any idea of the 
+		  properties of the electrons found in those regions. It is essential for 
+		  photovoltaics that electrons should move, for example, but Fig. 3 stays 
+		  silent about how they move.</p>
+ 	    <p>  The x-axis of Figure 2(d), although not labeled, actually tells us something about how the electrons
+		    in a solid move. In Figure 2(d), the allowed energies below and above the forbidden gap are plotted
+		    according to their "crystal momentum", which in practice translates into the actual momenta or
+		    velocities of an electrical current carrier in a crystal. This is helpful, and therefore, our
+		    actual computations provide us with information about the expected electron energy as a function
+		    of their momentum.
+		  </p>
+		<p> One thing that follows is the question what happens to an electron's momentum when it is lifted
+		    up to a higher energy level by absorbing a photon (light)? It turns out that by absorbing a photon
+			only, almost nothing happens - the electron changes its energy, but not its momentum.
+			In terms of Figure 2(d), this means that a solid can best absorb light with energies that connect
+			an energy band below the band gap with another energy band above the band gap, i.e.,
+			move the electron's state in a vertical fashion in Figure 2(d). If the highest occupied electronic
+			state (below the gap) and the lowest unoccupied state (above the gap) are found to have the same 
+			momentum (like in Figure 2(d)) one speaks of a direct gap, and light absorption might be strong
+			for energies right above the band gap. In contrast, if the highest occupied electronic
+			state (below the gap) and the lowest unoccupied state (above the gap) are NOT found at the same momentum,
+			then the absorption at the band gap itself will be much weaker and one speaks of an "indirect gap".
+			It turns out that Si is an "indirect" semiconductor and thus a much weaker absorber than the
+			"thin-film" solar absorbers CdTe or CIGS. One therefore needs much less of the absorber material
+			(and can process the material in different ways) for a thin-film absorber than for Si-based solar cells.
+		  </p>
           </div>
         </div>
       </div>
