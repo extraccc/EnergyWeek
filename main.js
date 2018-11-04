@@ -84,7 +84,7 @@ new Vue({
         displayName: "CBTS",
         description: "CBTS",
         geometryURL: "geometry/CBTS.in",
-        imageURL: "#",
+        imageURL: null,
         bandStructure: "band/CBTS.jpg",
         reasons: "undefined"
       },
@@ -93,7 +93,7 @@ new Vue({
         displayName: "CBTSe",
         description: "will be widely used in the futrue(I guess)",
         geometryURL: "geometry/CBTSe.in",
-        imageURL: "#",
+        imageURL: null,
         bandStructure: "band/CBTSe.jpg",
         reasons: "Perhaps.."
       },
@@ -102,7 +102,7 @@ new Vue({
         displayName: "CZTS",
         description: "CZTS",
         geometryURL: "geometry/CZTS.in",
-        imageURL: "#",
+        imageURL: null,
         bandStructure: "band/CZTS.jpg",
         reasons: "undefined"
       },
@@ -111,7 +111,7 @@ new Vue({
         displayName: "2D hybrid perovskite",
         description: "AE4TPbI4",
         geometryURL: "geometry/AE4TPbI4.in",
-        imageURL: "#",
+        imageURL: null,
         bandStructure: "band/AE4TPbI4.jpg",
         reasons: "Perhaps yes..."
       }

@@ -140,6 +140,10 @@
               </center>
             </div>
           </div>
+
+          <div v-if="selected.imageURL">
+
+          <!-- image and introduction -->
           <div class="pure-u-1 pure-u-md-1-3">
             <div class="l-box">
               <img class="pure-img" v-bind:src="selected.imageURL" />
@@ -151,6 +155,20 @@
               <p>Description: {{ selected.description }} </p>
             </div>
           </div>
+          <!-- End of image and introduction -->
+          <!-- if image=null -->
+        </div>
+        <div v-else>
+          <div class="pure-u-1">
+            <div class="l-box">
+              <p>Material Name: {{ selected.displayName }}</p>
+              <p>Description: {{ selected.description }} </p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+
           <div class="pure-u-1">
             <div class="l-box">
               <center>
