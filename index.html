@@ -132,7 +132,7 @@ t<!DOCTYPE html>
       <div class="pure-g rainbow-blue">
         <div class="pure-u-1">
           <div class="l-box">
-            <h3>The Energy Band Structure and the Solar Spectrum</h3>
+            <h3>The Energy Band Structure and Light Absorption</h3>
             <h4>A Quick Overview of "Band Structures"</h4>
 
             <p>The image shown below (Figure 3, taken from Wikipedia) shows schematically how the
@@ -201,9 +201,20 @@ t<!DOCTYPE html>
       <div class="pure-g rainbow-cyan">
         <div class="pure-u-1">
           <div class="l-box">
-            <h3>Solar Spectrum</h3>
+            <h3>The Solar Spectrum</h3>
             <p>Reference: <a href="https://www.nrel.gov/grid/solar-resource/spectra-am1.5.html">American Society for Testing and Materials</a></p>
-            <div id="solarspectrum"></div>
+		<p>The last ingredient we need to determine whether a semiconductor is a potentially good
+		  solar absorber, based on its atomic structure, is some knowledge of the energy spectrum
+		  of solar light itself. We need solar light to be able lift electrons from below the energy
+		  gap in a semiconductor to above the energy gap. This means that the energy
+		  gap of a good absorber should be low enough so that a significant part of the
+		  solar spectrum can be absorbed by the semiconductor. On the other hand, the gap should not be
+		  too low, since the voltage one can achieve from a solar cell is largely determined 
+		  by the size of the energy gap - lower gap, lower voltage, and thus less power.
+		  As a good compromise, one typically seeks solar absorbers with band gaps between
+		  1.0 eV and 1.6 eV, with an ability to absorb enough of the incoming solar spectrum,
+		  yet with a significant enough gap to guarantee a reasonable output voltage.</p>
+		  <div id="solarspectrum"></div>
           </div>
         </div>
       </div>
