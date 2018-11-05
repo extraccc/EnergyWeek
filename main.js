@@ -101,7 +101,7 @@ new Vue({
       {
         name: "CZTS",
         displayName: "CZTS",
-        description: "CZTS",
+        description: "Copper-Zinc-Tin-Sulfide, Cu<sub>2</sub>ZnSnS<sub>4</sub>, is a thin-film photovoltaic material that saw much development effort since the chemical elements used to make it are rather abundant in the earth's crust, and they are non-toxic. The record PV device efficiency for this material in the lab is only at about 13%, however, since the material is prone to show structural disorder between Cu and Zn atoms. This reduces the attainable output voltage from any CZTS based device to date and led to the development of CBT(S,Se) and related materials as a potential alternative without this disadvantage.",
         geometryURL: "geometry/CZTS.in",
         imageURL: null,
         bandStructure: "band/CZTS.jpg",
