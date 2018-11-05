@@ -110,7 +110,7 @@ new Vue({
       {
         name: "perovskite",
         displayName: "Layered hybrid perovskite",
-        description: "This material is a so-called organic-inorganic hybrid perovskite, here aminoethyl-quaterthiophene lead iodide, AE4TPbI4. While some hybrid perovskites with smaller organic molecules are excellent solar absorber materials, this one has a band gap that is too high. It might, however, be used as a material to collect and separate photogenerated carriers in a device ... at least, the details of the energy band structure suggest that this might be possible.",
+        description: "This material is a so-called organic-inorganic hybrid perovskite, here aminoethyl-quaterthiophene lead iodide, AE4TPbI4. While some hybrid perovskites with smaller organic molecules are excellent solar absorber materials, this one has a band gap that is too high. It might, however, be used as a material to collect and separate photogenerated carriers in a device (not proven in the lab) ... at least, the details of the energy band structure suggest that this might be possible.",
         geometryURL: "geometry/AE4TPbI4.in",
         imageURL: null,
         bandStructure: "band/AE4TPbI4.jpg",
