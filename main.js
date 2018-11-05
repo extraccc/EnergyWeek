@@ -82,8 +82,8 @@ new Vue({
       },
       {
         name: "CBTS",
-        displayName: "CBTS",
-        description: "CBTS",
+        displayName: "Cu<sub>2</sub>BaSnSe<sub>4</sub>",
+        description: "Copper-Barium-Tin-Sulfide is a quaternary semiconductor studied by our group in collaboration with the group of David Mitzi. It has an experimentally measured band gap between 1.9 eV and 2.0 eV, which is somewhat high for photovoltaics. However, one can produce working proof-of-concept solar cells from this material, one can alloy it with Se to obtain a lower band gap and achieve higher efficiency, and one can also use it for photoelectrochemical generation of hydrogen as a solar fuel.",
         geometryURL: "geometry/CBTS.in",
         imageURL: null,
         bandStructure: "band/CBTS.jpg",
