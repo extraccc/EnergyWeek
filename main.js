@@ -83,7 +83,7 @@ new Vue({
       {
         name: "CBTS",
         displayName: "CBTS",
-        description: "Copper-Barium-Tin-Sulfide Cu<sub>2</sub>BaSnS<sub>4</sub> is a quaternary semiconductor studied by our group in collaboration with the group of David Mitzi. It has an experimentally measured band gap between 1.9 eV and 2.0 eV, which is somewhat high for photovoltaics. However, one can produce working proof-of-concept solar cells from this material, one can alloy it with Se to obtain a lower band gap and achieve higher efficiency, and one can also use it for photoelectrochemical generation of hydrogen as a solar fuel.",
+        description: "Copper-Barium-Tin-Sulfide, Cu2BaSnS4, is a quaternary semiconductor studied by our group in collaboration with the group of David Mitzi. It has an experimentally measured band gap between 1.9 eV and 2.0 eV, which is somewhat high for photovoltaics. However, one can produce working proof-of-concept solar cells from this material, one can alloy it with Se to obtain a lower band gap and achieve higher efficiency, and one can also use it for photoelectrochemical generation of hydrogen as a solar fuel.",
         geometryURL: "geometry/CBTS.in",
         imageURL: null,
         bandStructure: "band/CBTS.jpg",
@@ -92,7 +92,7 @@ new Vue({
       {
         name: "CBTSe",
         displayName: "CBTSe",
-        description: "Copper-Barium-Tin-Selenide, Cu<sub>2</sub>BaSnSe<sub>4</sub>, is a quaternary semiconductor studied by our group in collaboration with the group of David Mitzi. It has an experimentally measured band gap between 1.6 eV and 1.7 eV, still somewhat high for photovoltaics but lower than that of pure CBTS. The crystal structure, however, is different from that of CBTS, and in this case, the structure change increases the band gap. An alloyed ratio of 25% S : 75% Se changes the structure back to that of CBTS and produces the lowest band gap ovserved in this system, about 1.5 eV.",
+        description: "Copper-Barium-Tin-Selenide, Cu2BaSnSe4, is a quaternary semiconductor studied by our group in collaboration with the group of David Mitzi. It has an experimentally measured band gap between 1.6 eV and 1.7 eV, still somewhat high for photovoltaics but lower than that of pure CBTS. The crystal structure, however, is different from that of CBTS, and in this case, the structure change increases the band gap. An alloyed ratio of 25% S : 75% Se changes the structure back to that of CBTS and produces the lowest band gap ovserved in this system, about 1.5 eV.",
         geometryURL: "geometry/CBTSe.in",
         imageURL: null,
         bandStructure: "band/CBTSe.jpg",
@@ -101,7 +101,7 @@ new Vue({
       {
         name: "CZTS",
         displayName: "CZTS",
-        description: "Copper-Zinc-Tin-Sulfide, Cu<sub>2</sub>ZnSnS<sub>4</sub>, is a thin-film photovoltaic material that saw much development effort since the chemical elements used to make it are rather abundant in the earth's crust, and they are non-toxic. The record PV device efficiency for this material in the lab is only at about 13%, however, since the material is prone to show structural disorder between Cu and Zn atoms. This reduces the attainable output voltage from any CZTS based device to date and led to the development of CBT(S,Se) and related materials as a potential alternative without this disadvantage.",
+        description: "Copper-Zinc-Tin-Sulfide, Cu2ZnSnS4, is a thin-film photovoltaic material that saw much development effort since the chemical elements used to make it are rather abundant in the earth's crust, and they are non-toxic. The record PV device efficiency for this material in the lab is only at about 13%, however, since the material is prone to show structural disorder between Cu and Zn atoms. This reduces the attainable output voltage from any CZTS based device to date and led to the development of CBT(S,Se) and related materials as a potential alternative without this disadvantage.",
         geometryURL: "geometry/CZTS.in",
         imageURL: null,
         bandStructure: "band/CZTS.jpg",
@@ -109,8 +109,8 @@ new Vue({
       },
       {
         name: "perovskite",
-        displayName: "2D hybrid perovskite",
-        description: "AE4TPbI4",
+        displayName: "Layered hybrid perovskite",
+        description: "This material is a so-called organic-inorganic hybrid perovskite, here aminoethyl-quaterthiophene lead iodide, AE4TPbI4. While some hybrid perovskites with smaller organic molecules are excellent solar absorber materials, this one has a band gap that is too high. It might, however, be used as a material to collect and separate photogenerated carriers in a device ... at least, the details of the energy band structure suggest that this might be possible.",
         geometryURL: "geometry/AE4TPbI4.in",
         imageURL: null,
         bandStructure: "band/AE4TPbI4.jpg",
