@@ -2,6 +2,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <title>Duke Energy Week@aims group</title>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <link rel="stylesheet" href="style.css">
@@ -190,7 +191,7 @@
             <div class="pure-u-1 pure-u-md-2-3">
               <div class="l-box">
                 <p>Material Name: {{ selected.displayName }}</p>
-                <p>Description: {{ selected.description }} </p>
+                <div v-html="selected.description"></div>
               </div>
             </div>
             <!-- End of image and introduction -->
@@ -200,7 +201,7 @@
             <div class="pure-u-1">
               <div class="l-box">
                 <p>Material Name: {{ selected.displayName }}</p>
-                <p>Description: {{ selected.description }} </p>
+		<div v-html="selected.description"></div>
               </div>
             </div>
           </div>
