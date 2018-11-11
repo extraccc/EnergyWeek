@@ -24,7 +24,7 @@ new Vue({
   },
   created() {
     console.log("Hello World!");
-    fetch("materials").then(response => response.json()).then(json => {
+    fetch("materials.json").then(response => response.json()).then(json => {
       this.materials = json.material
     });
   },
